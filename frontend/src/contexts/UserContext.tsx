@@ -13,6 +13,6 @@ export const UserProvider = (props: ParentProps) => {
 
 export function useUserStore() {
   const ctx = useContext(UserContext);
-  if (!ctx) throw new Error("no context");
+  if (!ctx) throw new Error("no context found");
   return ctx;
 }

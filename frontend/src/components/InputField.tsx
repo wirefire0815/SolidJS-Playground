@@ -1,4 +1,4 @@
-import { Component, createSignal } from "solid-js";
+import { Component, createSignal, Show } from "solid-js";
 import { useUserStore } from "../contexts/UserContext";
 
 export const InputField: Component = () => {
